@@ -1,0 +1,112 @@
+.who_are_we {
+  background-color: hsla(235, 91%, 13%, 1);
+  color: white;
+  height: 18%;
+ 
+  padding: 2em 5em;
+}
+
+.who_are_heading {
+  background: linear-gradient(
+    to right,
+    hsla(249, 100%, 81%, 1),
+    hsla(207, 67%, 53%, 1),
+    hsla(190, 94%, 51%, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+  width: 6em;
+  font-size: 2.2rem;
+}
+
+.who_are_para {
+  font-size: 1.1rem;
+  line-height: 1.8em;
+}
+
+.image_icons {
+  height: 17%;
+  background: linear-gradient(
+    to right,
+    hsla(249, 100%, 81%, 1),
+    hsla(207, 67%, 53%, 1),
+    hsla(190, 94%, 51%, 1)
+  );
+  padding: 3.2em 0;
+}
+
+.globe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.image_icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.number_count {
+  font-size: 3.6rem;
+  font-weight: bold;
+  padding-top: 0.3em;
+}
+.icon_message {
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+.mission_vision {
+  display: flex;
+  color: black;
+  
+   
+}
+.mission-container {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("https://res.cloudinary.com/srikanth143/image/upload/v1686996564/Line_pattern_1_scuumb.svg");
+  background-color:   rgba(173, 216, 230, 0.5);
+}
+
+ 
+
+.mission {
+  width: 55%;
+  padding: 8.35em;
+}
+
+.vision-container {
+  width: 50%;
+
+  background-image: url("https://res.cloudinary.com/srikanth143/image/upload/v1686996564/objects_inpt5w.svg");
+  background-color: #D8F3FF;
+   box-shadow: -10px 0px 10px rgba(173, 216, 230, 0.5);
+  
+  background-position: 41% 56%;
+}
+.vision {
+  width: 60%;
+  padding-left:8.5em ;
+  padding-top: 8.5em;
+  
+}
+.mission_heading{
+    font-size: 2.125em;
+    background-image: linear-gradient(to right, hsla(249, 100%, 81%, 1), hsla(207, 67%, 53%, 1), hsla(190, 94%, 51%, 1));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 170px;
+}
+.mission_para{
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
