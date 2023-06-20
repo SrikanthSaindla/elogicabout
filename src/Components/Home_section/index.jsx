@@ -19,7 +19,7 @@ const  Home = () => {
             <li>Our services</li>
             <li>case studies</li>
             <li>About Us</li>
-            <button className='button_reach'>Reach Us Now</button>
+            <li><button className='button_reach'>Reach Us Now</button></li>
           </ul>
         </div>
        
