@@ -1,13 +1,13 @@
 .our_culture {
-  height: 60%;
+  height: 70vh;
   margin: 0px;
   width: 100%;
   /* background-image: url('https://res.cloudinary.com/srikanth143/image/upload/v1687001053/Rectangle_222_2x_crflj6.png');
    background-size: cover;  */
-  background-color: hsla(235, 91%, 13%, 1);
+   background-image: linear-gradient(92deg, hsla(229, 77%, 12%, 0.81), hsla(0, 0%, 0%, 0.68)),url('https://res.cloudinary.com/srikanth143/image/upload/v1687001053/Rectangle_222_2x_crflj6.png');
   color: white;
-    
-  opacity: 80%;
+    background-size: cover;
+  
 }
 .culture_icons_con {
   display: flex;
@@ -17,7 +17,7 @@
 }
 .our_culture_head {
   margin-top: 0%;
-  font-size: 2.125em;
+  font-size: 2.125rem;
   background-image: linear-gradient(
     to right,
     hsla(249, 100%, 81%, 1.2),
@@ -41,7 +41,7 @@
   
 }
 .our_culture_para {
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.83em;
   padding-left: 2em;
   
@@ -75,8 +75,21 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  width: 11vw;
+  width: auto;
+  font-size: 1rem;
 }
 .val_icon1{
     margin-bottom: 1.8em;
+}
+.icon_animation4{
+  transition: transform 0.3s ease;
+}
+.icon_animation4:hover {
+  transform: rotate(180deg);
+}
+.icon_animation1{
+   transition: transform 0.3s ease;
+}
+.icon_animation1:hover {
+ transform: translateY(-23px) translateX(14px) rotate(-4deg);
 }

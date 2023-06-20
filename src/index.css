@@ -1,6 +1,15 @@
+
+  @font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('./GT-Walsheim-Pro-Font-Family/GTWalsheimPro-Medium.woff') format('woff'),
+       url('./GT-Walsheim-Pro-Font-Family/GTWalsheimPro-Medium.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: "Roboto",sans-serif;
+  font-family: 'GT Walsheim Pro';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
@@ -8,6 +17,6 @@ body {
 
  
 
-* {
-  font-family: "Roman", sans-serif;
-}
+
+  
+

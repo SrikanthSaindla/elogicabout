@@ -15,15 +15,15 @@ const Culture = () => {
         </p>
         <div className="aptitue_container">
           <span className="aptitude">Attitude > Aptitude</span>
-          <span className="aptitude">Attitude > Aptitude</span>
-          <span className="aptitude">Attitude > Aptitude</span>
+          <span className="aptitude">Willing To Learn> Experience</span>
+          <span className="aptitude">Making Mistakes> Playing With safe</span>
         </div>
         <div className="culture_icons_con">
           <div className="icon_con">
             <img
               src="https://res.cloudinary.com/srikanth143/image/upload/v1687000516/val_icon_01_ljybrw.svg"
-              alt="icon1"
-              className="val_icon1"
+              alt="icon1  "
+              className="val_icon1 icon_animation1"
             />
             <span>Find Elegant Solutions</span>
             <span>To Odd Problems</span>
@@ -53,7 +53,7 @@ const Culture = () => {
             <img
               src="https://res.cloudinary.com/srikanth143/image/upload/v1687000516/val_icon_04_kloph4.svg"
               alt="icon1"
-              className="val_icon1"
+              className="val_icon1 icon_animation4"
             />
             <span>Work For The Vision, </span>
             <span> Not The Boss</span>

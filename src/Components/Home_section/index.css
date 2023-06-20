@@ -1,6 +1,43 @@
 .home{
-    background-image: url('https://res.cloudinary.com/srikanth143/image/upload/v1686929070/Path_396_2x_kz3her.png');
-    height: 73vh;
+    background-image: linear-gradient(92deg, hsla(228, 78%, 19%, 0.77), hsla(229, 77%, 12%, 0.81), hsla(0, 0%, 0%, 0.68)),url('https://res.cloudinary.com/srikanth143/image/upload/v1686929070/Path_396_2x_kz3her.png');
+    
+    margin: 0;
+    height: 75vh;
     width: 100%;
     background-size: cover;
+    
+    
+}
+.home_second{
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1.3em 3rem; */
+    padding: 1.3em 3rem;
+     
+    
+}
+ .list_options{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    font-size: 1.25rem;
+    color:white;
+    list-style-type: none;
+ }
+.logo{
+    width: 9.34rem;
+    height: 5.375rem ;
+}
+.button_reach{
+     
+  background: linear-gradient(91deg, hsla(261, 44%, 49%, 1), hsla(205, 69%, 53%, 1), hsla(189, 97%, 50%, 1));
+  border:none;
+  background-color: transparent;
+   width: 9rem;
+   align-self: flex-start;
+   padding: .6em;
+   font-size: .8em;
+   color: white;
+    
 }

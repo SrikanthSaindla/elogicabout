@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  white-space: nowrap;
+  background-color: black;
+  color:white;
+      background-image: linear-gradient(92deg, hsla(229, 77%, 12%, 0.77), hsla(229, 77%, 12%, 0.81)),url('https://res.cloudinary.com/srikanth143/image/upload/v1687229333/Layer_1_1_u8kaz2.svg');
+  height: 70vh;
+  margin-bottom: 7em;
+  
+}
+.list_container6{
+display: flex;
+  gap: 8em;
+  height: 30vh;
+}
+
+.container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+li{
+  list-style-type: none;
+} 
+.two{
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2em;
+}
+.one{
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2em;
+}
+.journey{
+  font-size: 2rem;
+}
+.our_journey{
+  margin-bottom: 3em;
+}
+.year{
+  font-size: 1.5em;
+  padding: .3em;
+}
