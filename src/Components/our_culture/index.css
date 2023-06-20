@@ -1,5 +1,5 @@
 .our_culture {
-  height: 70vh;
+  height: 70%;
   margin: 0px;
   width: 100%;
   /* background-image: url('https://res.cloudinary.com/srikanth143/image/upload/v1687001053/Rectangle_222_2x_crflj6.png');
@@ -14,6 +14,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 4em;
+  padding: 3em;
 }
 .our_culture_head {
   margin-top: 0%;
