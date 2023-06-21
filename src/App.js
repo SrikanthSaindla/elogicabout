@@ -5,6 +5,7 @@ import Section from './Components/who_are_we_section';
 import Culture from './Components/our_culture';
 import Home from './Components/Home_section';
 import Horizontal from './Components/Horizontal';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <Section />
       <Culture />
       <Horizontal />
-       
+       <Footer/>
     </div>
   );
 }
