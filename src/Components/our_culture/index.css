@@ -4,9 +4,11 @@
   width: 100%;
   /* background-image: url('https://res.cloudinary.com/srikanth143/image/upload/v1687001053/Rectangle_222_2x_crflj6.png');
    background-size: cover;  */
-   background-image: linear-gradient(92deg, hsla(229, 77%, 12%, 0.81), hsla(0, 0%, 0%, 0.68)),url('https://res.cloudinary.com/srikanth143/image/upload/v1687001053/Rectangle_222_2x_crflj6.png');
-  color: white;
-    background-size: cover;
+   background-image: linear-gradient(92deg, #03083ED9 ,#03083ED9),url('https://res.cloudinary.com/srikanth143/image/upload/v1687001053/Rectangle_222_2x_crflj6.png');
+ 
+   color: white;
+     background-position: 30% 29%;
+     background-size: cover;
   
 }
 .culture_icons_con {
@@ -43,7 +45,7 @@
 }
 .our_culture_para {
   font-size: 1rem;
-  line-height: 1.83em;
+  line-height: 1.93em;
   padding-left: 2em;
   
 }
@@ -57,7 +59,7 @@
 .aptitude {
   border: 2px solid;
   border-image: linear-gradient(
-      to bottom,
+      108deg,
       hsla(233, 100%, 87%, 1.2),
       hsla(190, 97%, 53%, 1)
     )

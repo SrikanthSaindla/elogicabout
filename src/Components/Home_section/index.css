@@ -1,3 +1,13 @@
+
+ @font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('../../GT-Walsheim-Pro-Font-Family/GTWalsheimPro-RegularOblique.woff') format('woff'),
+       url('../../GT-Walsheim-Pro-Font-Family/GTWalsheimPro-UltraLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .home{
     background-image: linear-gradient(92deg, hsla(228, 78%, 19%, 0.77), hsla(229, 77%, 12%, 0.81), hsla(0, 0%, 0%, 0.68)),url('https://res.cloudinary.com/srikanth143/image/upload/v1686929070/Path_396_2x_kz3her.png');
     
@@ -17,11 +27,21 @@
      
     
 }
+.list_and_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    gap: 6em;
+}
  .list_options{
     display: flex;
     justify-content: space-between;
-    gap: 3rem;
-    font-size: 1.25rem;
+    font-family:GT Walsheim Pro ;
+    gap: 3.5rem;
+    font-size: 1rem;
+    font-style: medium;
+     
     color:white;
     list-style-type: none;
  }
@@ -35,9 +55,11 @@
   border:none;
   background-color: transparent;
    width: 9rem;
-   align-self: flex-start;
-   padding: .6em;
+    box-shadow: 4px 4px white;
+   padding: 1em;
+   font-family: GT Walsheim Pro;
    font-size: .8em;
    color: white;
     
 }
+ 

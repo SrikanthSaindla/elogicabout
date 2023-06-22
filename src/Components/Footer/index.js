@@ -31,24 +31,25 @@ const  Footer = () => {
 
       <div className="contact_container">
         <p>Contact Us</p>
-        <div className='contact_number'>
+        <div className="contact_number">
           <img
             src="https://res.cloudinary.com/srikanth143/image/upload/v1687273748/telephone_2_caxqqq.svg"
             alt=""
           />
           <span>+918309616283</span>
         </div>
-        <div>
+        <div className="email-container">
           <img
             src="https://res.cloudinary.com/srikanth143/image/upload/v1687273748/Layer_2_rffvzt.svg"
-            alt=""
+            alt="" className='message_icon'
           />
-          <span>srikanth.saindla@eltege.io</span>
+          <span>info.edge@elogictech.io</span>
         </div>
-        <p>Follow Us</p>
+        <span>Follow Us</span>
         <img
           src="https://res.cloudinary.com/srikanth143/image/upload/v1687273748/linkedin_ulbgc5.svg"
-          alt="" className='linkdin'
+          alt=""
+          className="linkdin"
         />
       </div>
     </div>

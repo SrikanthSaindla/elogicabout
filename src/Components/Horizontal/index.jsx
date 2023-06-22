@@ -5,7 +5,7 @@ const  Horizontal = () => {
   return (
     <>
       <div className="container">
-        <h1 className="our_journey">Our Journey</h1>
+        <h1 className="our_journey ">Our Journey</h1>
         <div className="list_container6">
           <div className="one">
             <span className="year">1998</span>

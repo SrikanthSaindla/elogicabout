@@ -1,8 +1,11 @@
 .who_are_we {
   background-color: hsla(235, 91%, 13%, 1);
+  background-image: url('https://res.cloudinary.com/srikanth143/image/upload/v1687448848/Layer_1_4_et0rsk.svg');
   color: white;
-  height: 18%;
- 
+  height: 20%;
+  
+ background-repeat: no-repeat;
+  background-position: 140% 53%;
   padding: 2em 5em;
 }
 
@@ -22,18 +25,18 @@
 
 .who_are_para {
   font-size: 1.1rem;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 
 .image_icons {
-  height: 17%;
+  height: 20%;
   background: linear-gradient(
     to right,
     hsla(249, 100%, 81%, 1),
     hsla(207, 67%, 53%, 1),
     hsla(190, 94%, 51%, 1)
   );
-  padding: 3.2em 0;
+  padding: 3.8em 0;
 }
 
 .globe {
@@ -81,6 +84,7 @@
 .mission {
   width: 55%;
   padding: 8.35em;
+
 }
 
 .vision-container {
@@ -109,4 +113,6 @@
 .mission_para{
     font-size: 1.1rem;
     line-height: 1.5em;
+    font-style: normal;
+    font-weight: 200;
 }

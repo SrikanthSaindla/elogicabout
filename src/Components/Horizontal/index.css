@@ -6,7 +6,7 @@
   white-space: nowrap;
   background-color: black;
   color:white;
-      background-image: linear-gradient(92deg, hsla(229, 77%, 12%, 0.77), hsla(229, 77%, 12%, 0.81)),url('https://res.cloudinary.com/srikanth143/image/upload/v1687229333/Layer_1_1_u8kaz2.svg');
+  background-image: linear-gradient(92deg, hsla(229, 77%, 12%, 0.17), hsla(229, 77%, 12%, 0.17)),url('https://res.cloudinary.com/srikanth143/image/upload/v1687229333/Layer_1_1_u8kaz2.svg');
   height: 60vh;
   
   
@@ -40,11 +40,26 @@ li{
 }
 .journey{
   font-size: 1.5rem;
+     background-image: linear-gradient(96deg, #C5A4FF, #2D9FE0, #06D6FB);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  
 }
 .our_journey{
-  margin-bottom: 3em;
+  margin-bottom: 1.7em;
+  background-image: linear-gradient(90deg, #C5A4FF, #2D9FE0, #06D6FB);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 900;
+   padding-top: 1em;
+   padding-left: 1em;
 }
 .year{
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: .3em;
+  font-style: normal;
+  font-weight: 100;
 }

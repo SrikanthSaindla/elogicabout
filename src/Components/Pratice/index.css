@@ -1,0 +1,15 @@
+.horizontal-scroll {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  scroll-snap-align: start;
+  /* Add your desired content styles */
+}

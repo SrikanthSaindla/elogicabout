@@ -22,7 +22,7 @@ const Section = () => {
             alt="globe"
           />
           <span className="number_count">
-            <NumberCounter end={4} start={0} delay="2" preFix="+" />
+            <NumberCounter end={4} start={0} delay="2"  />
           </span>
           <span className="icon_message">Worldwide Presence</span>
         </div>
@@ -33,7 +33,7 @@ const Section = () => {
             alt="globe"
           />
           <span className="number_count">
-            <NumberCounter end={5} start={0} delay="2" preFix="+" />
+            <NumberCounter end={5} start={0} delay="2"  />
           </span>
           <span className="icon_message">Successful Deployments</span>
         </div>
@@ -44,7 +44,7 @@ const Section = () => {
             alt="globe"
           />
           <span className="number_count">
-            <NumberCounter end={10} start={0} delay="3" preFix="+" />
+            <NumberCounter end={10} start={0} delay="3"  />
           </span>
           <span className="icon_message">Diverse Clients</span>
         </div>
