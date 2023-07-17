@@ -1,12 +1,13 @@
 .container {
   width: 100%;
   overflow-x: scroll;
+  overflow-y: hidden;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
   white-space: nowrap;
-  background-color: black;
+ outline: none;
   color:white;
-  background-image: linear-gradient(92deg, hsla(229, 77%, 12%, 0.17), hsla(229, 77%, 12%, 0.17)),url('https://res.cloudinary.com/srikanth143/image/upload/v1687229333/Layer_1_1_u8kaz2.svg');
+  background-image: linear-gradient(92deg,rgb(22, 29, 107),rgb(37, 45, 137)),url('https://res.cloudinary.com/srikanth143/image/upload/v1687229333/Layer_1_1_u8kaz2.svg');
   height: 60vh;
   
   
@@ -29,7 +30,7 @@ li{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 2em;
+  padding-left: 4em;
 }
 .one{
   align-self: flex-end;

@@ -59,7 +59,7 @@
 .aptitude {
   border: 2px solid;
   border-image: linear-gradient(
-      108deg,
+      100deg,
       hsla(233, 100%, 87%, 1.2),
       hsla(190, 97%, 53%, 1)
     )
